@@ -132,6 +132,13 @@ body,
 /* 3 模块
 ================================================================*/
 
+/* check */
+.page_index .check{ padding-top:283px; margin:0 18.5px 0 24px;}
+.page_index .check a{ display:block; height:35px; margin-bottom:12.5px; border-radius:16px}
+.page_index .check a:active{ background-color:rgba(0,0,0,.1);}
+.page_index .check .checked{ background:url(../images/check.png) 235px 50% no-repeat; background-size:30px 30px;}
+.page_index .submit{ height:35px; display:block; margin:51px 18.5px 0 24px; border-radius:16px}
+.page_index .submit:active{ background-color:rgba(0,0,0,.1);}
 
 
 
@@ -143,8 +150,8 @@ body,
 
 .content{ width:320px; margin:0 auto;}
 
-.conbg{ width:320px; background-repeat:no-repeat; background-position:0 0}
-.page_index .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
+.conbg{ position:relative; width:320px; background-repeat:no-repeat; background-position:0 0}
+.page_index .conbg{ height:780px; background-image:url(../images/page_index.png); background-size:320px 780px;}
 .page_task .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
 .page_achieve .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
 .page_set .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
