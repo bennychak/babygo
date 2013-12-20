@@ -18,7 +18,7 @@
 
 <body>
 
-<div  ontouchmove="event.preventDefault()" data-role="page" data-position="fixed" data-tab-toggle="false" data-title="首页" id="page_index" class="page page_index">
+<div data-role="page" data-position="fixed" data-tab-toggle="false" data-title="首页" id="page_index" class="page page_index">
 	<div data-role="header" class="header">
 		<h1>header</h1>
 	</div>
@@ -85,6 +85,8 @@
 		</div>
 	</div>
 </div>
-
+<script>
+document.addEventListener('touchmove',function(event){event.preventDefault();},false);
+</script>
 </body>
 </html>
