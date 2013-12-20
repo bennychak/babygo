@@ -8,7 +8,7 @@
 <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
-<title>我去</title>
+<title>babygo</title>
 
 <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.2.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -18,93 +18,20 @@
 
 <body>
 
-<div data-role="page" data-title="登录页" id="page_login" class="page page_login">
-	<div class="loginbox">
-		<input class="inputTxt" type="text" style="margin-bottom:22px" value="username" />
-		<input class="inputTxt" type="password" value="。。。。。。" />
-		<a href="#page_index" class="loginbtn" data-transition="slide">登录</a>
+<div data-role="page" data-position="fixed" data-tab-toggle="false" data-title="首页" id="page_index" class="page">
+	<div data-role="header" class="header">
+		<h1>header</h1>
 	</div>
-</div>
-
-<div data-role="page" data-title="首页" id="page_index" class="page page_index">
-	<div class="indexbox">
-		<a href="#page_login" style="display:block; width:80px; height:43px; position:absolute;" data-transition="slide" data-direction="reverse"></a>
-		<a href="#page3" style="height:109px"></a>
-		<a href="#page4" style="position:absolute; right:0; height:100%; width:50%"></a>
+	<div data-role="content" class="content">
+		
 	</div>
-	<div class="bottom" style="position:absolute; bottom:0; left:0; width:100%; height:60px">
-		<a href="#page_index" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_notice" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_fav" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_person" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-	</div>
-</div>
-
-<div data-role="page" data-title="通知页" id="page_notice" class="page page_notice">
-	<div class="indexbox">
-		<a href="#page_noticecontent" data-transition="none" style="position:absolute; width:100%; height:100%; left:0; top:0"></a>
-		<a href="#page_login" style="display:block; width:80px; height:43px; position:absolute;" data-transition="slide" data-direction="reverse"></a>
-	</div>
-	<div class="bottom" style="position:absolute; bottom:0; left:0; width:100%; height:60px">
-		<a href="#page_index" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_notice" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_fav" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_person" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-	</div>
-</div>
-
-<div data-role="page" data-title="通知内容页" id="page_noticecontent" class="page page_noticecontent">
-	<div class="indexbox">
-		<a href="#page_notice" style="display:block; width:80px; height:43px; position:absolute;" data-transition="none"></a>
-	</div>
-	<div class="bottom" style="position:absolute; bottom:0; left:0; width:100%; height:60px">
-		<a href="#page_index" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_notice" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_fav" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_person" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-	</div>
-</div>
-
-<div data-role="page" data-title="个人页" id="page_person" class="page page_person">
-	<div class="indexbox">
-		<a href="#page_login" style="display:block; width:80px; height:43px; position:absolute;" data-transition="slide" data-direction="reverse"></a>
-	</div>
-	<div class="bottom3" style="position:absolute; bottom:0; left:0; width:100%; height:180px">
-		<a href="#page_personpublish" data-transition="none" style="float:left; width:33%; height:180px; display:block;"></a>
-		<a href="#" data-transition="none" style="float:left; width:33%; height:180px; display:block;"></a>
-		<a href="#page_notice" data-transition="none" style="float:left; width:33%; height:180px; display:block;"></a>
-	</div>
-	<div class="bottom" style="position:absolute; bottom:0; left:0; width:100%; height:60px">
-		<a href="#page_index" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_notice" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_fav" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_person" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-	</div>
-</div>
-
-<div data-role="page" data-title="我的发布" id="page_personpublish" class="page page_personpublish">
-	<div class="indexbox">
-		<a href="#page_person" style="display:block; width:80px; height:43px; position:absolute;" data-transition="none"></a>
-		<a href="#page_personpublishlayer" style="display:block; width:80px; height:43px; position:absolute; right:0" data-transition="none"></a>
-	</div>
-	<div class="bottom" style="position:absolute; bottom:0; left:0; width:100%; height:60px">
-		<a href="#page_index" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_notice" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_fav" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_person" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-	</div>
-</div>
-
-<div data-role="page" data-title="我的发布浮层" id="page_personpublishlayer" class="page page_personpublishlayer">
-	<a href="#page_personpublish" data-transition="none" style="position:absolute; width:100%; height:100%; left:0; top:0; bottom:0;"></a>
-	<div class="indexbox">
-		<a href="#page_personpublish" style="display:block; width:80px; height:43px; position:absolute;" data-transition="none"></a>
-	</div>
-	<div class="bottom" style="position:absolute; bottom:0; left:0; width:100%; height:60px">
-		<a href="#page_index" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_notice" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_fav" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
-		<a href="#page_person" data-transition="none" style="float:left; display:block; height:60px; width:25%"></a>
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="footer">
+		<div class="nav_foot clear">
+			<a href="#page_index" class="nav1 select" data-transition="none"><em></em>首页</a>
+			<a href="#page_task" class="nav2" data-transition="none"><em></em>任务</a>
+			<a href="#page_achieve" class="nav3" data-transition="none"><em></em>成就</a>
+			<a href="#page_set" class="nav4" data-transition="none"><em></em>设置</a>
+		</div>
 	</div>
 </div>
 
