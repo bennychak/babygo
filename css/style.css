@@ -19,7 +19,7 @@
 /* 1 CSS RESET
 ================================================================*/
 
-html{}
+html{ -webkit-backface-visibility:hidden;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td,header,footer,nav,article{margin:0;padding:0}
 table{border-collapse:collapse;border-spacing:0}
 img{border:0; max-width:100%; vertical-align:top}
@@ -145,13 +145,17 @@ body,
 
 .conbg{ width:320px; background-repeat:no-repeat; background-position:0 0}
 .page_index .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
+.page_task .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
+.page_achieve .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
+.page_set .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
 
 .header{ width:320px; margin:0 auto; display:none}
 
 .footer{ height:60px; margin:0 auto; background-image:url(../images/footerbg.png); background-repeat:no-repeat; background-size:320px 60px; background-position:center 0;}
 .nav_foot a{ display:block; height:60px; width:25%; float:left; text-align:center; font-size:12px; color:#fff}
 .nav_foot .select{ color:#f13c70}
-.nav_foot a em{ display:block; margin:0 auto; width:40px; height:40px; background-image:url(../images/ico_nav.png); background-repeat:no-repeat; background-size:160px 40px;}
+.nav_foot a em{ -webkit-transform:scale(.9); display:block; margin:0 auto; width:40px; height:40px; background-image:url(../images/ico_nav.png); background-repeat:no-repeat; background-size:160px 40px;}
+.nav_foot .select em{ -webkit-transform:scale(1);}
 .nav_foot .nav1 em{ background-position:0 0}
 .nav_foot .nav2 em{ background-position:-40px 0}
 .nav_foot .nav3 em{ background-position:-80px 0}
