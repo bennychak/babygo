@@ -140,6 +140,8 @@ body,
 .page_index .submit{ height:35px; display:block; margin:57px 18px 0 24px; border-radius:16px}
 .page_index .submit:active{ background-color:rgba(0,0,0,.1);}
 
+.compare{ position:absolute; left:228px; top:301px; display:block; width:73px; height:184px}
+.compare:active{ background-color:rgba(0,0,0,.1);}
 
 
 
@@ -152,6 +154,7 @@ body,
 
 .conbg{ position:relative; width:320px; background-repeat:no-repeat; background-position:0 0}
 .page_index .conbg{ height:780px; background-image:url(../images/page_index.png); background-size:320px 780px;}
+.page_result .conbg{ height:548px; background-image:url(../images/page_result.png); background-size:320px 548px;}
 .page_task .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
 .page_achieve .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
 .page_set .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
