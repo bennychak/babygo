@@ -36,9 +36,8 @@ a{ text-decoration: none; outline: none; cursor: pointer;}
 a:link{ -webkit-tap-highlight-color:transparent;}
 a:hover{ text-decoration: none;}
 a:active .ico30{ box-shadow:rgba(0,0,0,.2) 0 0 0 15px; background-color:rgba(0,0,0,.2); border-radius:8px}
-.ui-page{-webkit-backface-visibility:hidden;-webkit-transform:rotate(0deg);}
+.ui-page{-webkit-backface-visibility:hidden;}
 .ui-body-c, .ui-overlay-c{ background:none; box-shadow:none; border:none;}
-
 
 
 
@@ -162,9 +161,8 @@ body,
 .page_index .conbg{ height:630px; padding-top:150px; background-image:url(../images/page_index.png); background-size:320px 780px;}
 .page_result .conbg{ height:630px; background-image:url(../images/page_result.png); background-size:320px 630px;}
 .page_compare .conbg{ height:780px; background-image:url(../images/page_compare.png); background-size:320px 780px;}
-.page_task .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
+.page_task .conbg{ height:548px; background-image:url(../images/page_task.png); background-size:320px 548px;}
 .page_achieve .conbg{ height:548px; background-image:url(../images/page_achieve.png); background-size:320px 548px;}
-.page_set .conbg{ height:488px; background-image:url(../images/page_index.png); background-size:320px 488px;}
 
 .header{ width:320px; margin:0 auto; display:none}
 
