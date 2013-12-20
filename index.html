@@ -18,7 +18,6 @@
 $(function(){
 	$('.check a').tap(function(){
 		$(this).toggleClass('checked');
-		return false;
 	});
 })
 </script>
@@ -32,15 +31,16 @@ $(function(){
 	</div>
 	<div data-role="content" class="content">
 		<div class="conbg">
+			<a href="#page_achieve" data-transition="none" class="achieve_entrance"></a>
 			<div class="check">
-				<a href="###" class="checked"></a>
-				<a href="###"></a>
-				<a href="###"></a>
-				<a href="###"></a>
-				<a href="###"></a>
-				<a href="###"></a>
-				<a href="###"></a>
-				<a href="###"></a>
+				<a href="javascript:;"></a>
+				<a href="javascript:;"></a>
+				<a href="javascript:;"></a>
+				<a href="javascript:;"></a>
+				<a href="javascript:;"></a>
+				<a href="javascript:;"></a>
+				<a href="javascript:;"></a>
+				<a href="javascript:;"></a>
 			</div>
 			<a href="#page_result" data-transition="none" class="submit"></a>
 		</div>
@@ -50,7 +50,7 @@ $(function(){
 			<a href="#page_index" class="nav1 select" data-transition="none"><em></em>首页</a>
 			<a href="#page_task" class="nav2" data-transition="none"><em></em>任务</a>
 			<a href="#page_achieve" class="nav3" data-transition="none"><em></em>成就</a>
-			<a href="#page_set" class="nav4" data-transition="none"><em></em>设置</a>
+			<a href="javascript:;" class="nav4" data-transition="none"><em></em>设置</a>
 		</div>
 	</div>
 </div>
@@ -62,6 +62,7 @@ $(function(){
 	<div data-role="content" class="content">
 		<div class="conbg">
 			<a class="compare" href="#page_compare" data-transition="none"></a>
+			<a href="#page_result" data-transition="none" class="submit"></a>
 		</div>
 	</div>
 	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="footer">
@@ -69,7 +70,24 @@ $(function(){
 			<a href="#page_index" class="nav1 select" data-transition="none"><em></em>首页</a>
 			<a href="#page_task" class="nav2" data-transition="none"><em></em>任务</a>
 			<a href="#page_achieve" class="nav3" data-transition="none"><em></em>成就</a>
-			<a href="#page_set" class="nav4" data-transition="none"><em></em>设置</a>
+			<a href="javascript:;" class="nav4" data-transition="none"><em></em>设置</a>
+		</div>
+	</div>
+</div>
+
+<div data-role="page" data-position="fixed" data-tab-toggle="false" data-title="榜单" id="page_compare" class="page page_compare">
+	<div data-role="header" class="header">
+		<h1>header</h1>
+	</div>
+	<div data-role="content" class="content">
+		<div class="conbg"></div>
+	</div>
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="footer">
+		<div class="nav_foot clear">
+			<a href="#page_index" class="nav1 select" data-transition="none"><em></em>首页</a>
+			<a href="#page_task" class="nav2" data-transition="none"><em></em>任务</a>
+			<a href="#page_achieve" class="nav3" data-transition="none"><em></em>成就</a>
+			<a href="javascript:;" class="nav4" data-transition="none"><em></em>设置</a>
 		</div>
 	</div>
 </div>
@@ -86,7 +104,7 @@ $(function(){
 			<a href="#page_index" class="nav1" data-transition="none"><em></em>首页</a>
 			<a href="#page_task" class="nav2 select" data-transition="none"><em></em>任务</a>
 			<a href="#page_achieve" class="nav3" data-transition="none"><em></em>成就</a>
-			<a href="#page_set" class="nav4" data-transition="none"><em></em>设置</a>
+			<a href="javascript:;" class="nav4" data-transition="none"><em></em>设置</a>
 		</div>
 	</div>
 </div>
@@ -103,28 +121,10 @@ $(function(){
 			<a href="#page_index" class="nav1" data-transition="none"><em></em>首页</a>
 			<a href="#page_task" class="nav2" data-transition="none"><em></em>任务</a>
 			<a href="#page_achieve" class="nav3 select" data-transition="none"><em></em>成就</a>
-			<a href="#page_set" class="nav4" data-transition="none"><em></em>设置</a>
+			<a href="javascript:;" class="nav4" data-transition="none"><em></em>设置</a>
 		</div>
 	</div>
 </div>
 
-<div data-role="page" data-position="fixed" data-tab-toggle="false" data-title="设置" id="page_set" class="page page_set">
-	<div data-role="header" class="header">
-		<h1>header</h1>
-	</div>
-	<div data-role="content" class="content">
-		<div class="conbg"></div>
-	</div>
-	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="footer">
-		<div class="nav_foot clear">
-			<a href="#page_index" class="nav1" data-transition="none"><em></em>首页</a>
-			<a href="#page_task" class="nav2" data-transition="none"><em></em>任务</a>
-			<a href="#page_achieve" class="nav3" data-transition="none"><em></em>成就</a>
-			<a href="#page_set" class="nav4 select" data-transition="none"><em></em>设置</a>
-		</div>
-	</div>
-</div>
-<script>
-</script>
 </body>
 </html>
